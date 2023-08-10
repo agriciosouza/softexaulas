@@ -1,1 +1,34 @@
+Na organização original, tínhamos uma matriz 5x5 com a distribuição dos alunos da seguinte forma:
 
+M M P M M
+M M P M M
+P P M P P
+M M P M M
+M M P M M
+
+Ao chegarem os demais alunos, a sala ficou com uma matriz 6x6 e a nova distribuição dos alunos é a seguinte:
+
+
+M M P M M P
+M M P M M P
+P P M P P P
+M M P M M P
+M M P M M P
+P P M P P P
+
+Comparando as matrizes, podemos notar que a única diferença está na última coluna (que representa os alunos que chegaram). Na terceira linha, o aluno que gostava de Português (P) trocou de lugar com o aluno que preferia Matemática (M). Portanto, a troca ocorreu na terceira linha da última coluna.
+
+
+Agora que identificamos a cadeira em que ocorreu a troca, podemos determinar a disciplina de cada aluno:
+
+O aluno que trocou de lugar é o que gostava de Português (P).
+Na terceira linha, o aluno do meio, que agora prefere Matemática (M), trocou de lugar com o aluno à sua direita, que gostava de Português (P).
+Assim, a organização final da sala, após a troca, fica:
+
+
+M M P M M P
+M M P M M P
+P P M P P M
+M M P M M P
+M M P M M P
+P P M P P P
