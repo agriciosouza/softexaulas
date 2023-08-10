@@ -1,0 +1,20 @@
+Algoritmo Tabuada
+
+Var
+   numero, contador, resultado : inteiro
+
+Inicio
+   // Solicita que o usuário digite um número inteiro
+   Escreva("Digite um número inteiro para ver sua tabuada: ")
+   Leia(numero)
+
+   // Exibe o cabeçalho da tabuada
+   Escreva("Tabuada do ", numero, ":\n")
+
+   // Calcula e exibe a tabuada do número digitado
+   Para contador de 1 ate 10 faca
+      resultado <- numero * contador
+      Escreva(numero, " x ", contador, " = ", resultado, "\n")
+   FimPara
+
+FimAlgoritmo
