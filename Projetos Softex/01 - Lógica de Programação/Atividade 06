@@ -1,0 +1,32 @@
+Algoritmo DescobrirMeioDeTransporte
+Var
+   opcao: Caractere
+
+Inicio
+   Escrever("Bem-vindo(a) ao jogo de descobrir o meio de transporte!")
+   Escrever("Responda as perguntas abaixo apenas com 'Sim' ou 'Não'.")
+
+   Escrever("O meio de transporte é motorizado?")
+   Leia(opcao)
+   
+   Se (opcao = "Sim") Entao
+      Escrever("O meio de transporte possui rodas?")
+      Leia(opcao)
+
+      Se (opcao = "Sim") Entao
+         Escrever("O meio de transporte é um trator?")
+      Senao
+         Escrever("O meio de transporte é uma moto?")
+      FimSe
+
+   Senao
+      Escrever("O meio de transporte é movido a pedal?")
+      Leia(opcao)
+
+      Se (opcao = "Sim") Entao
+         Escrever("O meio de transporte é uma bicicleta?")
+      Senao
+         Escrever("Opção inválida. Responda apenas com 'Sim' ou 'Não'.")
+      FimSe
+   FimSe
+FimAlgoritmo
