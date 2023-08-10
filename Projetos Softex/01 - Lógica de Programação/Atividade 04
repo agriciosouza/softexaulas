@@ -1,0 +1,51 @@
+Algoritmo Cadastro
+Declare
+    nome, endereco, cidade, cpf, rg, nomePai, nomeMae: caractere
+    idade: inteiro
+    peso, rendaBruta: real
+Inicio
+    Escreva("Cadastro de Pessoa")
+    
+    Escreva("Digite o nome: ")
+    Leia(nome)
+    
+    Escreva("Digite o endereço: ")
+    Leia(endereco)
+    
+    Escreva("Digite a cidade: ")
+    Leia(cidade)
+    
+    Escreva("Digite o CPF: ")
+    Leia(cpf)
+    
+    Escreva("Digite o RG: ")
+    Leia(rg)
+    
+    Escreva("Digite a idade: ")
+    Leia(idade)
+    
+    Escreva("Digite o nome do pai: ")
+    Leia(nomePai)
+    
+    Escreva("Digite o nome da mãe: ")
+    Leia(nomeMae)
+    
+    Escreva("Digite o peso: ")
+    Leia(peso)
+    
+    Escreva("Digite a renda bruta: ")
+    Leia(rendaBruta)
+    
+    // Agora podemos exibir os dados cadastrados:
+    Escreva("Cadastro realizado com sucesso!")
+    Escreva("Nome: ", nome)
+    Escreva("Endereço: ", endereco)
+    Escreva("Cidade: ", cidade)
+    Escreva("CPF: ", cpf)
+    Escreva("RG: ", rg)
+    Escreva("Idade: ", idade)
+    Escreva("Nome do Pai: ", nomePai)
+    Escreva("Nome da Mãe: ", nomeMae)
+    Escreva("Peso: ", peso)
+    Escreva("Renda Bruta: ", rendaBruta)
+FimAlgoritmo
