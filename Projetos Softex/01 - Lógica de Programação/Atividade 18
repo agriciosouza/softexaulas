@@ -1,0 +1,45 @@
+Fila (Queue):
+A fila segue a regra "primeiro a entrar, primeiro a sair" (FIFO - First-In-First-Out).
+Elementos são removidos na ordem em que foram inseridos.
+Sequência de números removidos da fila:
+
+Remove 3 (primeiro elemento)
+Remove 7 (segundo elemento)
+Remove 9 (terceiro elemento)
+Remove 1 (quarto elemento)
+Remove 0 (quinto elemento)
+Resultado final da fila: vazia
+
+Lista (List):
+Uma lista permite inserção e remoção em qualquer posição.
+Vamos considerar a remoção do último elemento para esvaziar a lista.
+Sequência de números removidos da lista:
+
+Remove 0 (último elemento)
+Remove 1 (último elemento)
+Remove 9 (último elemento)
+Remove 7 (último elemento)
+Remove 3 (último elemento)
+Resultado final da lista: vazia
+
+Pilha (Stack):
+A pilha segue a regra "último a entrar, primeiro a sair" (LIFO - Last-In-First-Out).
+Elementos são removidos do topo da pilha.
+Sequência de números removidos da pilha:
+
+Remove 0 (topo da pilha)
+Remove 1 (topo da pilha)
+Remove 9 (topo da pilha)
+Remove 7 (topo da pilha)
+Remove 3 (topo da pilha)
+Resultado final da pilha: vazia
+
+Portanto, a sequência de números removidos para esvaziar completamente cada estrutura de dados com o array [3, 7, 9, 1, 0] seria:
+
+Fila: 3, 7, 9, 1, 0
+Lista: 0, 1, 9, 7, 3
+Pilha: 0, 1, 9, 7, 3
+
+
+
+
