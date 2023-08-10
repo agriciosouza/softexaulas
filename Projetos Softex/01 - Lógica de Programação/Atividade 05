@@ -1,0 +1,30 @@
+Dados dos jogadores:
+
+Jogador 1: pontos = 150, moedas = 10, enfrentou_chefe = Sim
+Jogador 2: pontos = 80, moedas = 3, enfrentou_chefe = Não
+Jogador 3: pontos = 50, moedas = 5, enfrentou_chefe = Sim
+Jogador 4: pontos = 120, moedas = 5, enfrentou_chefe = Sim
+Agora, podemos avaliar cada expressão:
+
+Jogador 1: (pontos >= 100) and (moedas >= 5) and (enfrentou_chefe == Sim)
+Substituindo os valores do Jogador 1: (150 >= 100) and (10 >= 5) and (Sim == Sim)
+Resultado: (Verdadeiro) and (Verdadeiro) and (Verdadeiro) = Verdadeiro
+
+Jogador 2: (pontos >= 100) and (moedas >= 5) and (enfrentou_chefe == Não)
+Substituindo os valores do Jogador 2: (80 >= 100) and (3 >= 5) and (Não == Não)
+Resultado: (Falso) and (Falso) and (Verdadeiro) = Falso
+
+Jogador 3: (pontos < 100) or (moedas < 5) or (enfrentou_chefe == Sim)
+Substituindo os valores do Jogador 3: (50 < 100) or (5 < 5) or (Sim == Sim)
+Resultado: (Verdadeiro) or (Falso) or (Verdadeiro) = Verdadeiro
+
+Jogador 4: (pontos != 100) or (moedas != 5) or not(enfrentou_chefe == Não)
+Substituindo os valores do Jogador 4: (120 != 100) or (5 != 5) or not(Sim == Não)
+Resultado: (Verdadeiro) or (Falso) or (Verdadeiro) = Verdadeiro
+
+Avaliando cada expressão, temos:
+
+Jogador 1: Verdadeiro
+Jogador 2: Falso
+Jogador 3: Verdadeiro
+Jogador 4: Verdadeiro
