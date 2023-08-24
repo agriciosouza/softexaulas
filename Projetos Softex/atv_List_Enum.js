@@ -57,6 +57,25 @@ private String descricao;
     public Tarefa(String descricao, CategoriaTarefa categoria) {
         this.descricao = descricao;
         this.categoria = categoria;
-    }
+    } // Getters e setters
 
-    // Getters e setters
+//5 - Em um aplicativo de e-commerce, você precisa definir os diferentes status de um pedido: "Em processamento", "Enviado" e "Entregue". Como você usaria enums para isso?
+
+const StatusPedido = {
+  EM_PROCESSAMENTO: 'Em processamento',
+  ENVIADO: 'Enviado',
+  ENTREGUE: 'Entregue'
+};
+
+// Exemplo de uso
+let statusAtual = StatusPedido.EM_PROCESSAMENTO;
+
+if (statusAtual === StatusPedido.EM_PROCESSAMENTO) {
+  console.log("O pedido está em processamento.");
+} else if (statusAtual === StatusPedido.ENVIADO) {
+  console.log("O pedido foi enviado.");
+} else if (statusAtual === StatusPedido.ENTREGUE) {
+  console.log("O pedido foi entregue.");
+}
+
+// Dessa forma, você pode usar os valores definidos no objeto StatusPedido para representar os diferentes estados do pedido e compará-los conforme necessário em seu aplicativo de e-commerce.
